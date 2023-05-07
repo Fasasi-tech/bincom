@@ -1,0 +1,29 @@
+.product_img{
+    width: 300px;
+    height: 230px;
+    flex:1;
+    padding:1rem;
+    
+
+}
+.div-img{
+    padding-bottom:3rem;
+    background-color: #b16c6c ;
+}
+.product-title{
+    text-align: center;
+}
+.link{
+    text-align: center;
+    color: black;
+    transition: all ease 0.5s;
+}
+.link:hover{
+    color: #6D0000;
+}
+.div_link{
+    text-align: center;
+}
+.view{
+    margin-top: 5px;
+}

@@ -1,0 +1,25 @@
+.friends{
+    width:20rem;
+    height:20rem;
+    border-radius: 100%;
+}
+.container{
+    padding:0 4rem;
+}
+.friends_container{
+    margin-top: 4rem;
+}
+.image_flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:3rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        padding:0 1rem;
+    }
+}

@@ -1,0 +1,126 @@
+nav{
+    background-color: #fff3f0;
+    padding: 0.5rem 0;
+    width:100%;
+}
+.navbar_sub_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.unordered_list{
+    display: flex;
+    gap:2rem;
+    list-style: none;
+    margin-left: auto;
+}
+
+a{
+    color:#6D0000;
+    font-weight: 500;
+}
+
+.title{
+    color:#6D0000;
+}
+
+.container{
+    padding:0 4rem;
+}
+
+.app__navbar-menu {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6D0000 ;
+}
+
+@media screen and (min-width: 890px){
+    .svg{
+        display:none;
+    }
+    .close{
+        display: none;
+    }
+  }
+
+
+
+  @media screen and (max-width: 900px){
+    .container{
+        padding:0 1rem;
+    }
+    
+    .unordered_list{
+        display: none;
+    }
+    .svg{
+        color:#6D0000;
+        font-size:4rem;
+    }
+    .app__navbar-menu {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        position: relative;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div{
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 5;
+        
+            padding: 1rem;
+        
+            width: 80%;
+            height: 100vh;
+            
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            flex-direction: column;
+            background-color: #fff3f0;
+    }
+      .close{
+        width: 35px;
+        height: 35px;
+        color: #6D0000;
+        margin: 0.5rem 1rem;
+      }
+      .unlist{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+  
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .list{
+        margin:1rem;
+      }
+      .anchor{
+        margin-bottom: 10px;
+        padding: 1rem;
+        display:grid;
+        
+      }
+      a{
+        padding:1rem;
+      }
+  }

@@ -1,0 +1,82 @@
+.container{
+    padding:0 4rem;
+}
+.header_sub_div{
+    /*margin-top: 4rem;*/
+    height: 100vh;
+}
+.header{
+    max-width: 500px;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ridwan_jpg{
+    width:20rem;
+    border-radius: 50%;
+}
+.first_heading{
+    color:rgb(186, 185, 185);
+}
+.header_button{
+    padding: 1rem 2rem;
+    font-weight:bold;
+    border:2px solid #6D0000;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff3f0;
+    color:#6D0000;
+    cursor:pointer;
+    transition: all ease 0.5s;
+
+}
+.header_button:hover{
+    background-color:#6D0000;
+    color:white;
+}
+.second_heading{
+    margin: 1rem 0;
+    color: #6D0000 ;
+    font-size: 2.5rem;
+
+}
+.fourth_heading{
+    margin: 1rem 0;
+    color: gray;
+}
+.my_works{
+    margin-top: 2rem;
+}
+.third_heading{
+    color:rgb(186, 185, 185);
+}
+.icon-tab{
+    display:flex;
+    justify-content: flex-start;
+    padding-top: 2rem;
+    gap:1rem;
+}
+.icon{
+    font-size:2rem;
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        padding:0 1rem;
+    }
+    .ridwan_jpg{
+        display: none;
+    }
+    .flex{
+        display:block;
+        
+    }
+    .header_sub_div{
+        margin-top: 6rem;
+        height: 72vh;
+       
+    }
+   
+}

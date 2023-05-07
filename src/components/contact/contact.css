@@ -1,0 +1,19 @@
+.container{
+    padding:0 4rem;
+}
+.container_div{
+    text-align: center;
+}
+.first_container{
+    background-color: #e0cbcb ;
+    padding:4rem 0;
+}
+@media screen and (max-width: 900px){
+    .container{
+        padding:0 1rem;
+    }
+    .first_container{
+        background-color: #e0cbcb ;
+        padding:2rem 0;
+    }
+}

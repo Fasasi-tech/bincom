@@ -1,0 +1,20 @@
+.work_img{
+    display:flex;
+    flex-wrap: wrap;
+    gap:3rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.container{
+    padding:0 4rem;
+}
+.skills_parent{
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        padding:0 1rem;
+    }
+}
